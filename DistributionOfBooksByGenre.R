@@ -9,8 +9,8 @@ library(tidyverse)
 library(data.table)
 library(scales)
 
-# Load the datasets for books and reviews
-reviews <- read.csv("C:/Users/Nil Atabey/Desktop/DMA2-NOTES/DMA-PROJECT-FOLDER/reviews_data_modified.csv")
+# Load the datasets for books and reviews - reviews dataset isnt needed for this operation
+# reviews <- read.csv("C:/Users/Nil Atabey/Desktop/DMA2-NOTES/DMA-PROJECT-FOLDER/reviews_data_modified.csv")
 books <- read.csv("C:/Users/Nil Atabey/Desktop/DMA2-NOTES/DMA-PROJECT-FOLDER/books_data_modified.csv")
 
 head(books)
