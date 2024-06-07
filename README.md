@@ -35,12 +35,12 @@ The goal of this project is to perform data analysis on a dataset of Amazon book
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/NilAtabey/Data-Analysis-on-Amazon-Books.git```
+   git clone https://github.com/NilAtabey/Data-Analysis-on-Amazon-Books.git
 2. Or you can download each analysis individually. Make sure to change the working directories
    ```R
    # Load the datasets for books and reviews
-    reviews <- fread("C:/Users/Nil Atabey/Desktop/DMA2-NOTES/DMA-PROJECT-FOLDER/reviews_data_modified.csv")
-    books <- fread("C:/Users/Nil Atabey/Desktop/DMA2-NOTES/DMA-PROJECT-FOLDER/books_data_modified.csv")```
+    reviews <- fread("C:/Users/YourUser/FolderLocation/reviews_data_modified.csv")
+    books <- fread("C:/Users/YourUser/FolderLocation/books_data_modified.csv")
 
 ## Prerequisites
 
