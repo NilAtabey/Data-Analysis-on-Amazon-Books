@@ -4,7 +4,7 @@ This is the public repository for the Data Management and Analysis Unit 2 Projec
 
 ## Authors
 
-- [B. Nil Atabey](https://github.com/NilAtabey)
+- [Nil Atabey](https://github.com/NilAtabey)
 - [Julio Zenelaj](https://github.com/juve-938383)
 
 ## Project Overview
