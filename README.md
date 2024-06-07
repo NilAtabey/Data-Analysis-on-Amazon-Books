@@ -48,6 +48,7 @@ Make sure you have the following installed:
 - R (version 4.0 or higher)
 - R Studio or equivalent IDE
 - R packages: dplyr, ggplot2, data.table, igraph, tidyverse, and any other packages specified in the scripts.
+- Minimum Hardware Prerequisites are 4GB of RAM or more (preferably 8GB) since the **reviews** dataset itself is ≈3GB
 
 ## Contributions
 
