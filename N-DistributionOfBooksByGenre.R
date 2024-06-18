@@ -3,6 +3,7 @@
 
 # Imports
 library(data.table)
+library(scales)
 
 # Load the datasets - reviews dataset isn't needed for this operation
 # reviews <- fread("C:/Users/Nil Atabey/Desktop/DMA2-NOTES/DMA-PROJECT-FOLDER/reviews_data_modified.csv")
@@ -19,7 +20,12 @@ all_categories <- categories[order(-N)]
 popular_categories <- head(categories[order(-N)], 11)
 popular_categories <- popular_categories[-1,] # get rid of uncategorized books
 
-all_categories$categories <- gsub("[[:punct:]]", "", all_categories$categories)
+
+
+all$categories <- gsub("[[:punct:]]", "", all$categories)
+
+
+
 popular_categories$categories <- gsub("[[:punct:]]", "", popular_categories$categories) # clean the strings
 
 percentages <- percent(popular_categories$N / sum(all_categories$N)) # calculate %'s
@@ -43,6 +49,7 @@ labels_with_percentages <- paste(popular_categories$categories, percentages)
 
 pie(popular_categories$N,
     labels = labels_with_percentages,
-    main = "Distribution of Books in the Market based on Genre",
+    main = "Distribution of Books in Market based on The Top 10 Genres",
+    
     col = custom_colors,
-    radius = 1.08)
+    radius = 1.01)

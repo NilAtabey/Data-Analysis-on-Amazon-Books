@@ -79,8 +79,8 @@ ggplot(combined_all, aes(x = Category, y = value, fill = variable)) +
   labs(title = 'Comparison of Top Genres: Market vs Review Percentage',
        x = 'Genre', y = 'Percentage') +
   theme(axis.text.x = element_text(angle = 35, hjust = 1, vjust = 1, size = 8)) +
-  scale_fill_manual(values = c("MarketPercentage" = "orange",
-                               "CommentPercentage" = "skyblue"),
+  scale_fill_manual(values = c("MarketPercentage" = "#00CD66",
+                               "CommentPercentage" = "#CD3278"),
                     labels = c("MarketPercentage" = "Market Percentage",
                                "CommentPercentage" = "Review Percentage")) +
-  scale_y_continuous(labels = scales::percent_format(scale = 1))
+  scale_y_continuous(labels = scales::percent_format(scale = 1), expand = c(0,0,0.01,0))

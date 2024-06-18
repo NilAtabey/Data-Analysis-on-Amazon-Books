@@ -30,10 +30,11 @@ popular_publishers # check it out before graphing
 ################################################################################
 
 ggplot(popular_publishers, aes(x = reorder(publishers, N), y = N)) +
-  geom_bar(stat = "identity", fill = "skyblue") +
+  geom_bar(stat = "identity", fill = "#b00be1") +
   geom_text(aes(label = N), hjust = 0, size = 2.5) +
   labs(title = "Publishers with More Than 1000 Books On the Market",
        x = "Publishers",
        y = "Number of Books") +
   theme(axis.text.x = element_text(angle = 0, hjust = 1)) +
   coord_flip()
+

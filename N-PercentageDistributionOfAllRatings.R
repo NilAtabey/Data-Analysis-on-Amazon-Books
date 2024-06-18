@@ -27,7 +27,7 @@ overall_distribution <- merged_data %>%
 ggplot(overall_distribution, aes(x = factor(`Review/Score`), y = Percentage, fill = factor(`Review/Score`))) +
   geom_bar(stat = "identity") +
   scale_y_continuous(labels = scales::percent_format(scale = 1),
-                     breaks = seq(0, 100, by = 10)) +
+                     breaks = seq(0, 100, by = 10), expand = c(0,0,0.01,0)) +
   scale_fill_manual(values = c("1" = "#e40042",
                                "2" = "#fe8100",
                                "3" = "#ffd800",
@@ -39,7 +39,7 @@ ggplot(overall_distribution, aes(x = factor(`Review/Score`), y = Percentage, fil
     y = "Percentage of Reviews",
     fill = "Review Score Given"
   ) +
-  theme_minimal()
+  theme_bw()
 
 # scale_y_continuous ensures that the y-axis displays values as percentages
 # and sets the axis ticks at every 10% interval

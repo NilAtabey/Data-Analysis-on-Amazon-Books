@@ -41,10 +41,13 @@ for (pair in user_pairs) {
 
 # create the network and modify colors etc.
 g <- graph_from_data_frame(d = edge_list, directed = FALSE)
+
+
 V(g)$label <- dupe_user_review_counts$ProfileName[match(V(g)$name,
                                                         dupe_user_review_counts$UserID)] 
 V(g)$color <- "skyblue"
 color_palette <- colorRampPalette(c("#FFFFFF", "yellow", "green", "darkgreen"))
+color_palette <- colorRampPalette(c("darkseagreen1", "lemonchiffon", "#ffd800", "#fe8100", "#e40042"))
 E(g)$color <- color_palette(max(E(g)$weight))[E(g)$weight]
 
 ################################################################################
@@ -72,6 +75,6 @@ plot(g,
      edge.arrow.size = 1, 
      layout = layout_in_circle,
      main = "Network of Top 10 Users and Shared Book Reviews",
-     edge.width = 1.5,
+     edge.width = 2,
      layout.par = list(heat = 0.01))
 

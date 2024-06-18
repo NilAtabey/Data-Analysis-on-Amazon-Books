@@ -5,6 +5,7 @@
 library(ggplot2)
 library(data.table)
 library(dplyr)
+library(scales)
 
 # Load the datasets for books and reviews
 reviews <- fread("C:/Users/Nil Atabey/Desktop/DMA2-NOTES/DMA-PROJECT-FOLDER/reviews_data_modified.csv")
@@ -30,10 +31,11 @@ ggplot(top_genres, aes(x = reorder(Genre, CommentCount), y = CommentCount)) +
   geom_bar(stat = "identity", fill = "darkolivegreen") +
   geom_text(aes(label = comma(CommentCount)), color = "white", vjust = 1.05, hjust = 0.5, size = 2.3) +
   scale_y_continuous(labels = comma) +
-  labs(title = "Top Genres Reviewed", x = "Genre", y = "Number of Reviews") +
+  labs(title = "Reviews of the Top 10 Genres", x = "Genre", y = "Number of Reviews") +
   theme_gray() +
   theme(axis.text.x = element_text(angle = 35, hjust = 1))
 
 # geom_text was heavily customized, adding digit seperator commas to CommentCount
 # was possible by scales::comma, the number of reviews on each bar was added and their
 # color, size, vertical and horizontal offsets were optimized.
+

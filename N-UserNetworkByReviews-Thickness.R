@@ -47,12 +47,13 @@ edge_list[, weight := weight / max(weight) * 6] # better visualization, adjustin
 g <- graph_from_data_frame(d = edge_list, directed = FALSE)
 V(g)$label <- dupe_user_review_counts$ProfileName[match(V(g)$name,
                                                         dupe_user_review_counts$UserID)]
-V(g)$color <- "cyan"
+V(g)$color <- "#1bbbe9"
+E(g)$color <- "#0e2a47"
 
 plot(g,
      vertex.label.cex = 0.7,
      vertex.size = 15,
      edge.arrow.size = 0.4, 
-     layout = layout_with_fr,
+     layout = layout_in_circle,
      main = "Network of Top 10 Users and Shared Book Reviews",
      edge.width = E(g)$weight)

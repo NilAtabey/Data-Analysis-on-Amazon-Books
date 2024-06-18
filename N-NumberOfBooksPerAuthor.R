@@ -55,8 +55,9 @@ head(top_authors_table) # double checking
 ################################################################################
 
 ggplot(top_authors_table, aes(x = reorder(Author, Book_Count), y = Book_Count)) +
-  geom_bar(stat = "identity") +
+  geom_bar(stat = "identity", fill = "aquamarine3") +
   coord_flip() +
-  labs(title = "Number of Books Written by Authors",
+  labs(title = "Number of Books per Author",
        x = "Name Of Author",
        y = "Number of Books Published")
+
