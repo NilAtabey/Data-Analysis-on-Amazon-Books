@@ -14,7 +14,7 @@ You can view our project presentation [here](Presentation/Data%20Analysis%20on%2
 ## Project Overview
 
 ### Dataset
-We used [this dataset](https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews/data) from 2022 which contains ~3 million user reviews and ~210 thousand books. For our analysis, we modified this dataset to suit our specific needs better.
+We used [this dataset](https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews/data) made in 2022 which contains ~3 million user reviews and ~210 thousand books from 1996 - 2014. For our analysis, we modified this dataset to suit our specific needs better.
 
 Here is what our modified dataset looks like
 ![Modified Dataset](dataset.png)
