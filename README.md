@@ -24,20 +24,24 @@ What is the relationship between factors such as genre, author, and user engagem
 ## Some Examples
 
 ![Top 10 Most Reviewed Books](Results/top10mostreviewedbooks.png)
-*Top 10 Most Reviewed Books*
+
+*Image 1: Top 10 Most Reviewed Books*
 
 ![Sentiment Analysis](Results/Sentiment%20Analysis/SA%20500K.png)
-*Sentiment Analysis on 500K reviews*
+
+*Image 2: Sentiment Analysis on 500K reviews*
 
 ![Market vs Review Percentages](Results/Market%20vs%20Review%20Percentage/marketvsreviewperceent.png)
-*Market margins in percentage vs review density of books percentage*
+
+*Image 3: Market margins in percentage vs review density of books percentage*
 
 ![Mean Helpfulness vs Score](Results/HelpfulnessByScore.png)
-*Helpfulness Of A Comment vs Scores Given (1-5)*
+
+*Image 4: Helpfulness Of A Comment vs Scores Given (1-5)*
 
 ![Network of Top 10 Users](Results/Network/networkoftop10users.png)
 
-*Network of top 10 users, darker color indicates more reviews in common*
+*Image 5: Network of top 10 users, darker color indicates more reviews in common*
 
 ## Repository Structure
 
