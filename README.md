@@ -29,7 +29,7 @@ What is the relationship between factors such as genre, author, and user engagem
 ![Sentiment Analysis](Results/Sentiment%20Analysis/SA%20500K.png)
 *Sentiment Analysis on 500K reviews*
 
-![Market vs Review Percentages](Results/Market%20vs%20Review%20Percentage/marketvsreviewpercent.png)
+![Market vs Review Percentages](Results/Market%20vs%20Review%20Percentage/marketvsreviewperceent.png)
 *Market margins in percentage vs review density of books percentage*
 
 ![Mean Helpfulness vs Score](Results/HelpfulnessByScore.png)
