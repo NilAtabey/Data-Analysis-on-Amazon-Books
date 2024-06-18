@@ -23,7 +23,7 @@ What is the relationship between factors such as genre, author, and user engagem
 
 ## Some Examples
 
-![Top 10 Most Reviewed Books](Results\top10mostreviewedbooks.png)
+![Top 10 Most Reviewed Books](Results/top10mostreviewedbooks.png)
 *Top 10 Most Reviewed Books*
 
 ![Sentiment Analysis](Results/Sentiment%20Analysis/SA%20500K.png)
