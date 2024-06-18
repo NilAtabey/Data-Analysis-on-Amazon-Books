@@ -7,6 +7,10 @@ This is the public repository for the project that we presented for our Data Man
 - [Nil Atabey](https://github.com/NilAtabey)
 - [Julio Zenelaj](https://github.com/juve-938383)
 
+## Presentation
+
+You can view our project presentation [here](Presentation/Data%20Analysis%20on%20Amazon%20Books.pdf).
+
 ## Project Overview
 
 ### Dataset
