@@ -9,27 +9,22 @@ This is the public repository for the Data Management and Analysis Unit 2 Projec
 
 ## Project Overview
 
-The goal of this project is to perform data analysis on a dataset of Amazon book reviews. The analysis includes various tasks such as data preparation, sentiment analysis, network analysis, and visualization. The primary programming language used for this project is R.
+### Dataset
+We used [this dataset](https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews/data) from 2022 which contains ~3 million user reviews and ~210 thousand books. For the purposes of our analysis, we modified this dataset to better suit our specific needs.
+
+Here is what our modified dataset looks like
+![Modified Dataset](dataset.png)
+
+### Objective
+The primary objective of this project is to perform a comprehensive data analysis on a dataset of Amazon book reviews. This analysis aims to uncover insights into the relationships between various factors such as genre, author, and user engagement with the reviews, ratings, and reception of books on Amazon. All analyses and visualizations are conducted using R.
+
+### Key Research Question
+What is the relationship between factors such as genre, author, and user engagement with the reviews, ratings, and reception of books on Amazon?
 
 ## Repository Structure
 
-- **AuthorGraph.R:** Script for generating graphs related to authors.
-- **BipartiteAnalysisScript.R:** Script for bipartite analysis.
-- **Data preparation script.R:** Script for preparing the data for analysis.
-- **N-DistributionOfBooksByGenre.R:** Analysis of the distribution of books by genre.
-- **N-IRRELEVANT-ComparisonOf5vs1StarByCategory.R:** Comparison analysis of 5-star vs. 1-star reviews by category.
-- **N-MarketVsReviewPercentage.R:** Analysis of market share vs. review percentage.
-- **N-NumberOfBooksPerAuthor.R:** Analysis of the number of books per author.
-- **N-PercentageDistributionOfAllRatings.R:** Percentage distribution of all ratings.
-- **N-PublishersWith1000Books.R:** Analysis of publishers with 1000 or more books.
-- **N-ReviewsByGenres.R:** Analysis of reviews by genres.
-- **N-Top10MostActiveUsers.R:** Analysis of the top 10 most active users.
-- **N-Top10MostReviewedBooks.R:** Analysis of the top 10 most reviewed books.
-- **N-UserNetworkByReviews-Color.R:** Network analysis of users by reviews (color-coded).
-- **N-UserNetworkByReviews-Thickness.R:** Network analysis of users by reviews (thickness-coded).
-- **PlottingManual.R:** Manual for plotting data.
-- **ReviewCount vs MeanScore.R:** Analysis of review count versus mean score.
-- **SentimentAnalysis.R:** Sentiment analysis of reviews.
+- Each file includes one type of analysis
+- All files list imports, loads, analyses and visualization in order, you can modify accordingly
 
 ## Getting Started
 
@@ -39,8 +34,8 @@ The goal of this project is to perform data analysis on a dataset of Amazon book
 2. Or you can download each analysis individually. Make sure to change the working directories
    ```R
    # Load the datasets for books and reviews
-    reviews <- fread("C:/Users/YourUser/FolderLocation/reviews_data_modified.csv")
-    books <- fread("C:/Users/YourUser/FolderLocation/books_data_modified.csv")
+    reviews <- fread("C:/Users/YourUser/FolderLocation/reviews.csv")
+    books <- fread("C:/Users/YourUser/FolderLocation/books.csv")
 
 ## Prerequisites
 
