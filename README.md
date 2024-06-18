@@ -36,6 +36,7 @@ What is the relationship between factors such as genre, author, and user engagem
 *Helpfulness Of A Comment vs Scores Given (1-5)*
 
 ![Network of Top 10 Users](Results/Network/networkoftop10users.png)
+
 *Network of top 10 users, darker color indicates more reviews in common*
 
 ## Repository Structure
