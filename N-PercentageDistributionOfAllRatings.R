@@ -5,6 +5,7 @@
 library(ggplot2)
 library(data.table)
 library(dplyr)
+library(scales)
 
 # Load the datasets for books and reviews
 reviews <- fread("C:/Users/Nil Atabey/Desktop/DMA2-NOTES/DMA-PROJECT-FOLDER/reviews_data_modified.csv")

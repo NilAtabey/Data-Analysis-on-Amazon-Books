@@ -21,6 +21,23 @@ The primary objective of this project is to perform a comprehensive data analysi
 ### Key Research Question
 What is the relationship between factors such as genre, author, and user engagement with the reviews, ratings, and reception of books on Amazon?
 
+## Some Examples
+
+![Top 10 Most Reviewed Books](Results\top10mostreviewedbooks.png)
+*Top 10 Most Reviewed Books*
+
+![Sentiment Analysis](Results/Sentiment%20Analysis/SA%20500K.png)
+*Sentiment Analysis on 500K reviews*
+
+![Market vs Review Percentages](Results/Market%20vs%20Review%20Percentage/marketvsreviewpercent.png)
+*Market margins in percentage vs review density of books percentage*
+
+![Mean Helpfulness vs Score](Results/HelpfulnessByScore.png)
+*Helpfulness Of A Comment vs Scores Given (1-5)*
+
+![Network of Top 10 Users](Results/Network/networkoftop10users.png)
+*Network of top 10 users, darker color indicates more reviews in common*
+
 ## Repository Structure
 
 - Each file includes one type of analysis
