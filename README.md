@@ -1,6 +1,6 @@
 # Data-Analysis-on-Amazon-Books
 
-This is the public repository for the Data Management and Analysis Unit 2 Project.
+This is the public repository for the project that we presented for our Data Management and Analysis Unit 2 class in the BSc in Applied Computer Science and Artificial Intelligence at the University of Rome - Sapienza.
 
 ## Authors
 
@@ -10,7 +10,7 @@ This is the public repository for the Data Management and Analysis Unit 2 Projec
 ## Project Overview
 
 ### Dataset
-We used [this dataset](https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews/data) from 2022 which contains ~3 million user reviews and ~210 thousand books. For the purposes of our analysis, we modified this dataset to better suit our specific needs.
+We used [this dataset](https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews/data) from 2022 which contains ~3 million user reviews and ~210 thousand books. For our analysis, we modified this dataset to suit our specific needs better.
 
 Here is what our modified dataset looks like
 ![Modified Dataset](dataset.png)
@@ -41,12 +41,12 @@ What is the relationship between factors such as genre, author, and user engagem
 
 ![Network of Top 10 Users](Results/Network/networkoftop10users.png)
 
-*Image 5: Network of top 10 users, darker color indicates more reviews in common*
+*Image 5: Network of top 10 users, darker colour indicates more reviews in common*
 
 ## Repository Structure
 
 - Each file includes one type of analysis
-- All files list imports, loads, analyses and visualization in order, you can modify accordingly
+- All files list imports, loads, analyses and visualization in order, you can modify them accordingly
 
 ## Getting Started
 
